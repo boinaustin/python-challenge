@@ -1,2 +1,2 @@
 Total Month,Total P/L,Average Change,Greatest Increase Date & Value,Greastest Decrease Date & Value
-86,38382578,446309,1170593Feb-2012,-1196225Sep-2013
+86,38382578,446309,1926159Jan-2010,-2196167Jan-2010

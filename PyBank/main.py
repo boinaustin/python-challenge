@@ -23,13 +23,18 @@ with open(budget_data) as csvfile:
                         
 total_months = len(rows)  
 avg_change = total_amount_pl / total_months
+
+pl_difference = []
+
+for x in range(len(pl)-1):
+    pl_difference.append(pl[x+1]-pl[x])
                           
 print("Total months: " + str(total_months))
 print("Total amount of pl: " + str(total_amount_pl))
 print("Average Change: " + str(avg_change))
 
-greatest_increase = max(pl)
-greatest_decrease = min(pl)
+greatest_increase = max(pl_difference)
+greatest_decrease = min(pl_difference)
 
 
 date1 = rows[0][0]
